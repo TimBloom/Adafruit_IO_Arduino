@@ -22,7 +22,7 @@ MapBlock::~MapBlock(){}
 String MapBlock::properties()
 {
   
-  if( (strcmp(tile, "contrast")!= 0) && (strcmp(tile, "street") !=0) && (strcmp(tile, "sat") != 0)
+  if( (strcmp(tile, "contrast")!= 0) && (strcmp(tile, "street") !=0) && (strcmp(tile, "sat") != 0) )
   {
     tile = "contrast";
   }
